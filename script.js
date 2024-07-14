@@ -1,9 +1,12 @@
 let doc = document
 
-let box = doc.querySelector('.box')
-let cover1 = doc.querySelector('.1')
-let cover2 = doc.querySelector('.2')
-let cover3 = doc.querySelector('.3')
+let cover1 = doc.querySelector('.ri-mail-fill')
+let cover2 = doc.querySelector('.ri-smartphone-line')
+let cover3 = doc.querySelector('.ri-map-pin-line')
+
+console.log(cover1)
+console.log(cover2)
+console.log(cover3)
 
 cover1.addEventListener('touchstart' , touch1)
 cover2.addEventListener('touchstart' , touch2)
