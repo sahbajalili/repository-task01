@@ -15,6 +15,7 @@
 }
 
 body {
+    height: 100vh;
     font-family: 'poppins';
     background-color: rgb(227, 227, 227);
     display: flex;
