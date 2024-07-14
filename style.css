@@ -90,11 +90,20 @@ i {
         gap: 65px;
     }
 
+    .cover {
+        width: 220px;
+        height: 130px;
+    }
+
+    .detail {
+        width: 220px;
+    }
+
     .box:first-child .detail{
-        top:120px;
+        top: 100px;
     }
 
     .box:nth-child(2) .detail {
-        top:335px;
+        top:295px;
     }
 }
